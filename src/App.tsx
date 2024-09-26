@@ -1,10 +1,9 @@
-import {FormPage} from "./page/FormPage.tsx";
-import './App.css';
+import List from "./component/contentList/List.tsx";
 
 const App = () => {
     return (
         <>
-            <FormPage/>
+            <List/>
         </>
     );
 }
